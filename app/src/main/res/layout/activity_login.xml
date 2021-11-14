@@ -26,13 +26,13 @@
         card_view:layout_constraintHorizontal_bias="0.497"
         card_view:layout_constraintStart_toStartOf="parent"
         card_view:layout_constraintTop_toBottomOf="@+id/username"
-        card_view:layout_constraintVertical_bias="0.548" />
+        card_view:layout_constraintVertical_bias="0.56" />
 
     <EditText
         android:id="@+id/username"
         android:layout_width="300dp"
         android:layout_height="53dp"
-        android:layout_marginTop="128dp"
+        android:layout_marginTop="212dp"
         android:background="@drawable/input_field"
         android:ems="10"
         android:hint="username"
@@ -44,7 +44,6 @@
         card_view:layout_constraintStart_toStartOf="parent"
         card_view:layout_constraintTop_toTopOf="parent" />
 
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -54,35 +53,38 @@
         android:textColor="@color/red"
         card_view:layout_constraintBottom_toBottomOf="parent"
         card_view:layout_constraintEnd_toEndOf="parent"
-        card_view:layout_constraintHorizontal_bias="0.328"
+        card_view:layout_constraintHorizontal_bias="0.044"
         card_view:layout_constraintStart_toStartOf="parent"
         card_view:layout_constraintTop_toBottomOf="@+id/loginBtn"
         card_view:layout_constraintVertical_bias="0.87" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="No account yet?"
-        card_view:layout_constraintBottom_toBottomOf="parent"
-        card_view:layout_constraintEnd_toStartOf="@+id/textView2"
-        card_view:layout_constraintHorizontal_bias="0.344"
-        card_view:layout_constraintStart_toStartOf="parent"
-        card_view:layout_constraintTop_toTopOf="parent"
-        card_view:layout_constraintVertical_bias="0.963" />
 
     <EditText
         android:id="@+id/password"
         android:layout_width="300dp"
         android:layout_height="53dp"
-        android:ems="10"
-        android:inputType="textPassword"
         android:background="@drawable/input_field"
-        android:textColorHint="@color/gray"
+        android:ems="10"
         android:hint="password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/gray"
         card_view:layout_constraintBottom_toTopOf="@+id/loginBtn"
         card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintHorizontal_bias="0.495"
         card_view:layout_constraintStart_toStartOf="parent"
         card_view:layout_constraintTop_toBottomOf="@+id/username"
-        card_view:layout_constraintVertical_bias="0.525" />
+        card_view:layout_constraintVertical_bias="0.522" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Covid19 APP"
+        android:textColor="@color/white"
+        android:textSize="29sp"
+        card_view:layout_constraintBottom_toTopOf="@+id/username"
+        card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintHorizontal_bias="0.452"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent"
+        card_view:layout_constraintVertical_bias="0.306" />
 </androidx.constraintlayout.widget.ConstraintLayout>
